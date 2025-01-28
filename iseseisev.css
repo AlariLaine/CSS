@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-image: url('cool-background.png');
+    background-size: cover;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styles */
+/* Header styles */
+.header {
+    height: 480px;
+    text-align: center;
+    padding: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.header .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid darkgoldenrod;
+}
+
+.header h1 {
+    font-size: 100px;
+    margin: 10px;
+    color: white;
+}
+
+.header .slogan {
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+
+/* Content styles */
+.content {
+    
+    background-color: white;
+    padding: 0px;
+    height: 600px;
+    font-size: 20px;
+    line-height: 2.0;
+}
+
+.content img {
+    padding: 100px;
+    float: left;
+    text-align: bottom;
+}
+
+
+
+/* Footer  */
+.footer {
+    padding: 40px;
+    background-color: #ffd900;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+}
+
+/* Existing  */
+.content h1, .content h2 {
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
